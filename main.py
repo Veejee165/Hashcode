@@ -1,7 +1,7 @@
 days_passsed=0
 assigned=[]
 projects_done=0
-def assign(project_days,to_assign,project_name):
+def assign(project_days,to_assign):
     for e in to_assign:
         if e in assigned:
             j=0
