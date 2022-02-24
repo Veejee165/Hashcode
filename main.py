@@ -12,8 +12,7 @@ def assign(project_days,to_assign):
         assigned = to_assign
         global  projects_done
         projects_done=projects_done+1
-        levelup();
-def levelup():
+
 
 
 
