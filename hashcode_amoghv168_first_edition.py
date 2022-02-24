@@ -6,7 +6,7 @@ class Contributor:
     def add_skill(self, skill, L):
         self.skill_dict[skill] = L
 
-f = open("C:\\Users\\RAHUL\\Desktop\\HashCode\\data\\a_an_example.in.txt", "r")
+f = open("a_an_example.in.txt", "r")
 inp1 = f.readline()
 inp = [int(x) for x in inp1.split()]
 C = inp[0]
